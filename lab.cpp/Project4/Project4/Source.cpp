@@ -1,4 +1,4 @@
-#include <istream>
+#include <iostream>
 #include <stdlib.h>
 using namespace std;
 #include<iostream>
@@ -8,11 +8,11 @@ int main() {
 	setlocale(LC_ALL, "ru");
 	int n, m, k, a;
 	int* mas1, * new_mas;
-	cout<< "Âåäèòå ðàçìåð ìàñèâà n";
+	cout<< "Ã‚Ã¥Ã¤Ã¨Ã²Ã¥ Ã°Ã Ã§Ã¬Ã¥Ã° Ã¬Ã Ã±Ã¨Ã¢Ã  n";
 	cin >> n;
 	if (n < 0) {
 		while (n < 0) {
-			cout << "Ââåäèòå äðóãîå ÷èñëî"<<endl;
+			cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã¤Ã°Ã³Ã£Ã®Ã¥ Ã·Ã¨Ã±Ã«Ã®"<<endl;
 			cin >> n;
 		}
 	}
@@ -26,12 +26,12 @@ int main() {
 	k = 0;
 	m = 0;
 	do {
-		cout << "Ââåäèòå íîìåð ñ êîòîðîãî äîáàâèòü"<<endl;
+		cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã­Ã®Ã¬Ã¥Ã° Ã± ÃªÃ®Ã²Ã®Ã°Ã®Ã£Ã® Ã¤Ã®Ã¡Ã Ã¢Ã¨Ã²Ã¼"<<endl;
 		cin >> k;
 
 	} while ((k <= 0) && (k > n + 1));
 	do {
-		cout << "Ââåäèòå êîëè÷åñòâî ýëåìåíîâ"<<endl;
+		cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ ÃªÃ®Ã«Ã¨Ã·Ã¥Ã±Ã²Ã¢Ã® Ã½Ã«Ã¥Ã¬Ã¥Ã­Ã®Ã¢"<<endl;
 		cin >> m;
 	} while (m <= 0);
 	a = n + m;
@@ -40,7 +40,7 @@ int main() {
 		new_mas[i] = mas1[i];
 	}
 	for (int i = 0, j = k - 1; i < m; j++, i++) {
-		cout << "Ââåäèòå ÷èñëî"<<endl;
+		cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã·Ã¨Ã±Ã«Ã®"<<endl;
 		cin >> new_mas[j];
 	}
 	for (int i = (k-1+m), j = k - 1; j < n; j++, i++) {
