@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\vasay\source\repos\lab.11\lab.11\Source.cpp(132,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\vasay\source\repos\lab.11\lab.11\Source.cpp(109): warning C4715: list::operator[]: значение возвращается не при всех путях выполнения
+  lab.11.vcxproj -> C:\Users\vasay\source\repos\lab.11\x64\Debug\lab.11.exe
